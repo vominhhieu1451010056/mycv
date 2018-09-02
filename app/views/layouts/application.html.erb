@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>I am Hieu</title>
+    <script>
+      window.onblur = function () { document.title = 'Please back with us'; }
+      window.onfocus = function () { document.title = 'I\'m Hieu, Welcome back'; }
+    </script>
     <link rel="icon" type="image/png" href="img/headtitle.png" sizes="16x16" />
     <%= csrf_meta_tags %>
 

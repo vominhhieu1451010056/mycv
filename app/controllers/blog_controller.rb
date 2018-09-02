@@ -1,5 +1,5 @@
 class BlogController < ApplicationController
-    def new
+    def newBlog
         
     end
 end
